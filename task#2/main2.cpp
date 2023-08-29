@@ -3,9 +3,9 @@
 int main()
 {
     float enter[15];
+    std::cout << "\nEnter fractional 15 numbers: ";
     for (int i = 0; i < 15; ++i)
     {
-        std::cout << "\nEnter fractional number" << i + 1 << ": ";
         std::cin >> enter[i];
     }
     std::cout<<"\n\n\n\n";
